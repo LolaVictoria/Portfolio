@@ -1,0 +1,77 @@
+.education { 
+    /* align-items: center; */  
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+/* .education .educationrow {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    flex-wrap: wrap;
+} */
+
+/* .educationrow .educationcolumn {
+    flex: 1 1 40rem;
+} */
+.educationrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.educationrow .educationcolumn:not(:last-child) {
+    margin-bottom: 9rem;
+}
+
+.educationcolumn .title {
+    font-size: 4rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.educationcolumn .educationbox {
+    max-width: 50rem;
+    border-left: .2rem solid var(--main-color);
+}
+
+.educationbox .educationcontent {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: .9rem;
+}
+
+.educationbox .educationcontent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.educationcontent .content {
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid var(--main-color);
+}
+
+.educationcontent .content .year {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    padding-bottom: .5rem;
+}
+
+
+/* for react icons */
+.educationcontent .content .year i {
+    padding-right: .5rem;
+}
+
+.educationcontent .content h3 {
+    font-size: 1.6rem;
+}
+
+.educationcontent .content p {
+    font-size: 1.2rem;
+    padding-top: .5rem;
+}

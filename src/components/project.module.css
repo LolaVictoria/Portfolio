@@ -1,0 +1,16 @@
+.project {
+    display: grid;
+    grid-row: 3;
+    
+}
+
+.projectcolumn {
+    width: auto;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: transparent;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+}

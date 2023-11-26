@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: yellowgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+
+.logo {
+    font-size: 2.5rem; 
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.navlist {
+    display: flex;
+
+}
+.navlist p {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+
+.navlist p:not(:last-child) {
+    margin-right: 16px;
+}
+
+.navlist p:hover,
+.navlist p.active {
+    color: var(--main-color);
+}
