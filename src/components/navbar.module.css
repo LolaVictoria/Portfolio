@@ -4,12 +4,16 @@
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: yellowgreen;
+    background: var(--bg-color);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100; 
+    border-bottom: var(--main-color);
+    border-width: 10px;
+    border-style: double;
+
 }
 
 .logo {
@@ -25,12 +29,12 @@
 .navlist p {
     font-size: 1.7rem;
     color: var(--text-color);
-    font-weight: 500;
+    font-weight: 700;
 
 }
 
 .navlist p:not(:last-child) {
-    margin-right: 16px;
+    margin-right: 38px;
 }
 
 .navlist p:hover,

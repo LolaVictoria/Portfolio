@@ -3,11 +3,13 @@
     padding: 10rem 9% 2rem;
     display: flex;
     align-items: center;
-
+    
+    
 }
 
 .content {
-    max-width: 64rem;
+    /* margin: 0 auto; */
+    max-width: 65rem;
 }
 
 .content h1 {
