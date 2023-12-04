@@ -1,8 +1,8 @@
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 2rem 9%;
     background: var(--bg-color);
     color: white;
@@ -11,33 +11,101 @@
     align-items: center;
     z-index: 100; 
     border-bottom: var(--main-color);
-    border-width: 10px;
+    border-width: 0 0 10px 0;
     border-style: double;
 
+    @media (max-width: 770px) {
+        padding: 2rem 3%;
+    }
+    
 }
 
 .logo {
     font-size: 2.5rem; 
     color: var(--text-color);
     font-weight: 600;
+
+    @media (max-width: 770px) {
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
 }
 
-.navlist {
+.menu {
+    font-weight: 900;
+    font-size: 2rem;
+
+    @media (min-width: 770px) {
+        display: none;
+    }
+}
+
+.menu_responsive {
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3rem 4rem 0 0;
+
+    @media (min-width: 770px) {
+        display: none;
+    }
+}
+
+.navlist ul{
     display: flex;
+    
+
+    @media(max-width: 770px) {
+        display: none;
+    }
 
 }
-.navlist p {
+
+.navlist_responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+
+    @media (min-width: 770px) {
+        display: none;
+    }
+}
+
+.navlist_responsive ul li {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+    @media (min-width: 770px) {
+        display: none;
+    }
+
+}
+
+
+.navlist ul li {
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 700;
 
 }
 
-.navlist p:not(:last-child) {
+.navlist ul li:not(:last-child) {
     margin-right: 38px;
 }
 
-.navlist p:hover,
-.navlist p.active {
+.navlist ul li:hover,
+.navlist ul li.active {
     color: var(--main-color);
 }
