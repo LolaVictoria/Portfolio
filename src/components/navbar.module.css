@@ -13,6 +13,8 @@
     border-bottom: var(--main-color);
     border-width: 0 0 10px 0;
     border-style: double;
+    background: "rgba(255, 255, 255, 0.60)";
+    backdropFilter: blur(20px);
 
     @media (max-width: 770px) {
         padding: 2rem 3%;

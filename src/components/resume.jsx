@@ -126,7 +126,7 @@ const Resume = () => {
               
 
               <div className={styles.educationcolumn}>
-                    <h3 className={styles.title}>Other</h3>
+                    <h3 className={styles.title}>Others</h3>
 
                     <div className={styles.educationbox}>
 

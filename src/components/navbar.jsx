@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import styles from "./navbar.module.css"
 import { useState } from "react"
+//import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 
 
 const Navbar = () => { 
@@ -15,7 +16,12 @@ const Navbar = () => {
               onClick={
                 () => setNav(!nav)
               }>
-              {nav ? "X" : "%"}
+                {nav ? 
+                "X"
+              : "%"}
+              {/* {nav ? 
+              <AiOutlineClose size={30}/> 
+              : <AiOutlineMenu size={30}/>} */}
             </p>
 
             
@@ -26,7 +32,13 @@ const Navbar = () => {
               onClick={
                 () => setNav(!nav)
               }>
-              {nav ? "X" : "%"}
+
+              {nav ? 
+                "X"
+              : "%"}
+              {/* {nav ? 
+              <AiOutlineClose size={30}/> 
+              : <AiOutlineMenu size={30}/>} */}
             </p>
               
               <ul>

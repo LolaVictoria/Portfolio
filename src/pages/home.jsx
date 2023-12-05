@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./home.module.css"
+//import img from "../assets/damilola.jpg"
 const Home = () => {
 
     return (
@@ -7,7 +8,7 @@ const Home = () => {
             <div className={styles.content}>
 
             <h1>
-                Hi , Im 
+                Hello , I&apos;m 
                 <span> Oniyide Damilola</span>
             </h1>
 
@@ -25,6 +26,14 @@ const Home = () => {
                    </button>
             </div>
             </div>
+
+            <div
+                className={styles.img}
+            >
+                {/* <img 
+                 src={img} alt="Damilola Oniyide" /> */}
+            </div>
+
         </div>
     )
 }
