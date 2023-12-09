@@ -8,7 +8,7 @@ const Home = () => {
             <div className={styles.content}>
 
             <h1>
-                Hello , I&apos;m 
+                Hello, I&apos;m 
                 <span> Oniyide Damilola</span>
             </h1>
 

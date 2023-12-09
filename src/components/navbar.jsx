@@ -1,45 +1,51 @@
 import { Link } from "react-router-dom"
 import styles from "./navbar.module.css"
 import { useState } from "react"
-//import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
+import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 
 
 const Navbar = () => { 
    const [nav, setNav] = useState(false)
+   
 
     return (
         <div className={styles.navbar}>
             <p className={styles.logo}>Lola Victoria</p>
 
-            <p
+            <div
               className={styles.menu}
               onClick={
                 () => setNav(!nav)
               }>
-                {nav ? 
-                "X"
-              : "%"}
-              {/* {nav ? 
+               
+              {nav ? 
               <AiOutlineClose size={30}/> 
-              : <AiOutlineMenu size={30}/>} */}
-            </p>
+              : <AiOutlineMenu size={30}/>}
+            </div>
 
             
             {nav ?
-                 <nav className={styles.navlist_responsive}>
-                  <p
+            <nav className={styles.navlist_responsive}>
+                  
+            {/* <div 
+              className={styles.menu_responsive}
+              onClick={(e) => {
+                  e.preventDefault()
+                  navigate(-1)
+                }}>
+              <AiOutlineClose size={30}/> 
+            </div> */}
+
+            <div
               className={styles.menu_responsive}
               onClick={
                 () => setNav(!nav)
               }>
-
+               
               {nav ? 
-                "X"
-              : "%"}
-              {/* {nav ? 
               <AiOutlineClose size={30}/> 
-              : <AiOutlineMenu size={30}/>} */}
-            </p>
+              : <AiOutlineMenu size={30}/>}
+            </div>
               
               <ul>
 

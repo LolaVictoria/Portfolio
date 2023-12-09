@@ -14,7 +14,7 @@
 .projectcolumn {
     width: auto;
     height: auto;
-    padding: 2.5rem;
+    padding: 2.5rem .5rem;
     font-size: 1.6rem;
     color: var(--text-color);
     background-color: transparent;
@@ -24,10 +24,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 770px) {
+        padding: 2.5rem 0;
+    }
 }
 
 .projectcolumn:not(:last-child) {
     margin-right: 16px;
+
+    @media(max-width: 770px) {
+        margin-right: 0;
+    }
 }
 .projectcolumn .title {
     font-weight: 900;
@@ -46,8 +54,9 @@
 }
 
 .projectcolumn .project_img {
-    width: 50%;
-    margin-bottom: 25px;
+    object-fit: cover;
+    width: 85%;
+    margin-bottom: 20px;
 }
 
 /*Button Div*/
@@ -59,6 +68,10 @@
     width: 32rem;
     height: 4rem;
     margin-top: 2rem;
+
+    @media (max-width: 770px) {
+        width: auto;
+    }
 }
 
 .btn {
@@ -79,6 +92,10 @@
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+
+    @media (max-width: 770px) {
+        width: 100%;
+    }
 }
 
 

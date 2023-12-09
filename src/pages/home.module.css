@@ -1,11 +1,13 @@
 .home {
     min-height: 100vh;
-    padding: .4rem 9% 0;
+    padding: 0 8% 0;
     display: flex;
     align-items: center;
+    overflow: hidden;
 
     @media (max-width: 768px) {
         padding: 6rem 7% 8rem;
+        flex-direction: row;
     }    
     
 }
@@ -13,21 +15,29 @@
 .content {
     /* margin: 0 auto; */
     max-width: 65rem;
+
+    @media (max-width: 770px) {
+        max-width: 29rem;
+        width: auto;
+    }
 }
 
 .content h1 {
-    font-size: 5.5rem;
+    font-size: 4.9rem;
     font-weight: 700;
     line-height: 1.3;
 
    @media(max-width: 768px) {
-    font-size: 4rem
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
    }
 }
 
 .content p {
     font-size: 1.6rem;
-    margin: 2rem 0 4rem;
+    margin: 2rem 0 3.5rem;
+
+   
 }
 .textAnimate {
     position: relative;
@@ -41,7 +51,7 @@
     -webkit-text-stroke: .7px var(--main-color);
 
     @media(max-width: 768px) {
-        font-size: 3rem
+        font-size: 2.2rem
     }
 }
 
@@ -50,7 +60,7 @@
     display: flex;
     justify-content: space-between;
     width: 34.5rem;
-    height: 5rem;
+    height: 4rem;
 }
 
 .btn {

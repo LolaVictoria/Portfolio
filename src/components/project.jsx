@@ -12,7 +12,7 @@ const  Project = () => {
                 
                  
                  <ProjectComponent
-                     title="EcommerceStore"
+                     title="Ecommerce Store"
                      about="lorem35"
                      tools="Typescript + React + TailwindCSS"/>
 
