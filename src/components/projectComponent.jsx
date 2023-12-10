@@ -3,7 +3,7 @@ import Demo from "../assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
 
-const ProjectComponent = ({about, title, tools}) => {
+const ProjectComponent = ({about, title, tools, liveCode}) => {
 
     return (
         <div className={styles.projectcolumn}>
@@ -16,10 +16,10 @@ const ProjectComponent = ({about, title, tools}) => {
                     <p className={styles.tools}>{tools}</p>
                     <div className={styles.btndiv}>
                    <button className={styles.btn}>
-                    <Link to="/">Code</Link>
+                    <Link to="">Code</Link>
                    </button>
                    <button className={styles.btn}>
-                    <Link to="/">Live</Link>
+                    <a href={liveCode} rel="noopener">Live</a>
                    </button>
             </div>
 
@@ -33,5 +33,6 @@ ProjectComponent.propTypes = {
     title: PropTypes.string.isRequired, // Assuming title is a required string
     about: PropTypes.string.isRequired,
     tools: PropTypes.string.isRequired,
+    liveCode: PropTypes.string.isRequired
   };
   

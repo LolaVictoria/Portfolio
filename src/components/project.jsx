@@ -14,22 +14,26 @@ const  Project = () => {
                  <ProjectComponent
                      title="Ecommerce Store"
                      about="lorem35"
-                     tools="Typescript + React + TailwindCSS"/>
+                     tools="Typescript + React + TailwindCSS"
+                     liveCode="https://alaba-market.vercel.app"/>
 
                <ProjectComponent
                      title="Study Card"
                      about="A reading guide that helps you to study better"
-                     tools="Javascript + React + TailwindCSS"/>
+                     tools="Javascript + React + TailwindCSS"
+                     liveCode="https://study-card-project.vercel.app"/>
 
                <ProjectComponent
                      title="Quiz"
                      about="A Quiz App"
-                     tools="Javascript + React + CSS"/>
+                     tools="Javascript + React + CSS"
+                     liveCode="https://study-card-project.vercel.app"/>
 
                <ProjectComponent
                      title="Portfolio Website"
                      about="My Portfolio Website"
-                     tools="Javascript + React + CSS"/>
+                     tools="Javascript + React + CSS"
+                     liveCode="https:lolas-portfolio.vercel.app"/>
             </div>
         </section>
     )
