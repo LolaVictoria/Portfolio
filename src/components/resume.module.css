@@ -64,11 +64,19 @@
 }
 
 .educationcontent .content .bluetext {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 500;
     color: var(--main-color);
     padding-bottom: .8rem;
 }
 
+.educationcontent .content ul {
+    list-style: disc;
+    margin-left: 1.7rem;
+}
+.educationcontent .content ul li{
+  font-size: 1.5rem;
+}
 .educationcontent .content h3 {
     @media (max-width: 400px) {
         font-size: 3rem;

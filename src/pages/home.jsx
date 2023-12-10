@@ -1,10 +1,19 @@
 import { Link } from "react-router-dom";
 import styles from "./home.module.css"
-//import img from "../assets/damilola.jpg"
+import img from "../assets/damilola.png"
 const Home = () => {
 
     return (
         <div className={styles.home}>
+             <div
+                className={styles.img_div}
+            >
+                 <img 
+                 src={img} 
+                 className={styles.img}
+                 alt="Damilola Oniyide" /> 
+            </div>
+
             <div className={styles.content}>
 
             <h1>
@@ -27,12 +36,12 @@ const Home = () => {
             </div>
             </div>
 
-            <div
+            {/* <div
                 className={styles.img}
             >
-                {/* <img 
-                 src={img} alt="Damilola Oniyide" /> */}
-            </div>
+                 <img 
+                 src={img} alt="Damilola Oniyide" /> 
+            </div> */}
 
         </div>
     )

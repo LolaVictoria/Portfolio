@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import Demo from "../assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
+import {IoEyeSharp} from "react-icons/Io5"
+import {FaCodeBranch} from "react-icons/fa"
 
 const ProjectComponent = ({about, title, tools, liveCode}) => {
 
@@ -15,12 +17,22 @@ const ProjectComponent = ({about, title, tools, liveCode}) => {
 
                     <p className={styles.tools}>{tools}</p>
                     <div className={styles.btndiv}>
+                    <Link to="">
                    <button className={styles.btn}>
-                    <Link to="">Code</Link>
+                        <span>
+                        <FaCodeBranch size={15}/>
+                        </span>
+                        <span>Code</span>
                    </button>
+                    </Link>
+                    <a href={liveCode} rel="noopener">
                    <button className={styles.btn}>
-                    <a href={liveCode} rel="noopener">Live</a>
+                        <span>
+                        <IoEyeSharp size={20} />
+                        </span>
+                        <span>Live</span>
                    </button>
+                    </a>
             </div>
 
                  </div>

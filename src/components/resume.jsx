@@ -38,7 +38,7 @@ const Resume = () => {
                             </div>
                         </div>
 
-                        <div className={styles.educationcontent}>
+                        {/* <div className={styles.educationcontent}>
                             <div className={styles.content}>
                                 <div className={styles.bluetext}>
                                     Databases/Storage
@@ -47,7 +47,7 @@ const Resume = () => {
                                     MongoDB
                                 </h3>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className={styles.educationcontent}>
                             <div className={styles.content}>
