@@ -16,7 +16,7 @@ const ProjectComponent = ({about, title, tools}) => {
                     <p className={styles.tools}>{tools}</p>
                     <div className={styles.btndiv}>
                    <button className={styles.btn}>
-                    <Link to="/">Source Code</Link>
+                    <Link to="/">Code</Link>
                    </button>
                    <button className={styles.btn}>
                     <Link to="/">Live</Link>

@@ -18,17 +18,17 @@ const  Project = () => {
 
                <ProjectComponent
                      title="Study Card"
-                     about="lorem35"
+                     about="A reading guide that helps you to study better"
                      tools="Javascript + React + TailwindCSS"/>
 
                <ProjectComponent
                      title="Quiz"
-                     about="lorem35"
+                     about="A Quiz App"
                      tools="Javascript + React + CSS"/>
 
                <ProjectComponent
                      title="Portfolio Website"
-                     about="lorem35"
+                     about="My Portfolio Website"
                      tools="Javascript + React + CSS"/>
             </div>
         </section>

@@ -37,7 +37,7 @@ body {
 
     @media(max-width: 768px) {
         font-size: 4.5rem;
-        margin-bottom: 4.5rem;
+        margin-bottom: 2.5rem;
     }
 
 }
@@ -52,7 +52,7 @@ section {
     /* padding: 10rem 4% 2rem; */
 
     @media(max-width: 768px) {
-        padding: 7.5rem 6%;
+        padding: 2.6rem 6%;
     }
     
 
