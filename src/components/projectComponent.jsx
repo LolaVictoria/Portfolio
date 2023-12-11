@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Demo from "../assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
-import {IoEyeSharp} from "react-icons/Io5"
+import {IoEyeSharp} from "react-icons/io5"
 import {FaCodeBranch} from "react-icons/fa"
 
 const ProjectComponent = ({about, title, tools, liveCode}) => {
