@@ -9,7 +9,49 @@ const Resume = () => {
             </h2>
                    
             <div className={styles.educationrow}>
-                
+            
+           {/*<div className={styles.educationcolumn}>
+                <h3 className={styles.title}>Personal Information</h3>
+
+
+            <div className={styles.personal_info_column}>
+                <div className={styles.personal_info}>
+                <div className={styles.bluetext}>
+                    Name
+                </div>
+                <div className={styles.info_value}>
+                     Oniyide Damilola Victoria
+                </div>
+                </div>
+
+                <div className={styles.personal_info}>
+                    <div className={styles.bluetext}>
+                        Contact Information
+                    </div>
+                    <div className={styles.info_value}>
+                        +2348129709027
+                    </div>
+                </div>
+
+                <div className={styles.personal_info}>
+                    <div className={styles.bluetext}>
+                        Email Address
+                    </div>
+                    <div className={styles.info_value}>
+                        damilolaoniyide11@gmail.com
+                    </div>
+                </div>
+
+                <div className={styles.personal_info}>
+                    <div className={styles.bluetext}>
+                        LinkedIn 
+                    </div>
+                    <div className={styles.info_value}>
+                        Damilola Oniyide
+                    </div>
+                </div>
+            </div>
+    </div>   */}
             <div className={styles.educationcolumn}>
                     <h3 className={styles.title}>Skills</h3>
 

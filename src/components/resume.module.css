@@ -97,3 +97,20 @@
     font-size: 1.2rem;
     padding-top: .5rem;
 }
+
+
+.educationcolumn .personal_info_column {
+    max-width: 28rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.educationcolumn .personal_info_column .personal_info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.educationcolumn .personal_info_column .personal_info .info_value {
+    text-align: center;
+}
