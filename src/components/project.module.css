@@ -118,8 +118,23 @@
     background: var(--main-color);
     z-index: -1;
     transition: .5s;
+
+    @media (max-width: 770px) {
+        background: var(--bg-color);
+    }
 }
 
+.btn:hover span {
+    color: var(--bg-color);
+    z-index: 1;
+    font-weight: 800;
+
+    @media (max-width: 770px) {
+        color: var(--main-color);
+        font-weight: normal;
+    }
+
+}
 .btn:hover::before {
    width: 100%;
 }
