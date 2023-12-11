@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom"
 import Demo from "../assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
 import {IoEyeSharp} from "react-icons/io5"
 import {FaCodeBranch} from "react-icons/fa"
 
-const ProjectComponent = ({about, title, tools, liveCode}) => {
+const ProjectComponent = ({about, title, tools, code, live}) => {
 
     return (
         <div className={styles.projectcolumn}>
@@ -17,15 +16,15 @@ const ProjectComponent = ({about, title, tools, liveCode}) => {
 
                     <p className={styles.tools}>{tools}</p>
                     <div className={styles.btndiv}>
-                    <Link to="">
+                    <a href={code} rel="noopener">
                    <button className={styles.btn}>
                         <span>
                         <FaCodeBranch size={15}/>
                         </span>
                         <span>Code</span>
                    </button>
-                    </Link>
-                    <a href={liveCode} rel="noopener">
+                    </a>
+                    <a href={live} rel="noopener">
                    <button className={styles.btn}>
                         <span>
                         <IoEyeSharp size={20} />
@@ -45,6 +44,7 @@ ProjectComponent.propTypes = {
     title: PropTypes.string.isRequired, // Assuming title is a required string
     about: PropTypes.string.isRequired,
     tools: PropTypes.string.isRequired,
-    liveCode: PropTypes.string.isRequired
+    live: PropTypes.string.isRequired,
+    code: PropTypes.string.isRequired
   };
   
