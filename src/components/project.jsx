@@ -38,6 +38,13 @@ const  Project = () => {
                      tools="Javascript + React + CSS"
                      live="https://lolas-portfolio.vercel.app"
                      code="https://github.com/LolaVictoria/Portfolio"/>
+ 
+               <ProjectComponent
+                     title="Photo Album"
+                     about="Keep memories of your loved ones"
+                     tools="Javascript + React + CSS"
+                     live="https://lolas-portfolio.vercel.app"
+                     code="https://github.com/LolaVictoria/Portfolio"/>
             </div>
         </section>
     )
