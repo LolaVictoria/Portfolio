@@ -63,7 +63,7 @@ const Resume = () => {
                                     Languages
                                 </div>
                                 <h3>
-                                  Javascript, Typescript
+                                  Javascript, Typescript, HTML, CSS
                                 </h3>
                             </div>
                         </div>
@@ -113,13 +113,23 @@ const Resume = () => {
                 <div className={styles.educationbox}>
                     <div className={styles.educationcontent}>
                         <div className={styles.content}>
+                            <div className="flex justify-between">
+                            <div>
                             <h3>
                                 Doyenify - Front End Developer Intern
                             </h3>
-                           <div className={styles.bluetext}>
+                             <p className={styles.bluetext}>                    
+                                Remote
+                           </p>
+                            </div>
+                            
+                           <p className={`${styles.bluetext} mt-7`}>
                                 {/* react icon for calendar */}
                                 July 2023 - October 2023
-                           </div>
+                           </p>
+                            </div>
+
+                           
                             {/* talk about work experience */}
                             <ul>
                                 <li>Developed a  Web Application from scratch  with Typescript and React</li>
@@ -148,6 +158,14 @@ const Resume = () => {
                                     {/* react icon for calendar */}
                                     2025
                                 </div>
+
+                                <h3>
+                                  Relevant Coursework
+                                </h3>
+                                <p className={styles.bluetext}>
+                                    {/* react icon for calendar */}
+                                    Data Structures and Algorithm
+                                </p>
                             </div>
                         </div>
 
