@@ -49,11 +49,12 @@ body {
 section {
     min-height: 100vh;
     padding: 5rem;
-    /* padding: 10rem 4% 2rem; */
+    /* padding: 10rem 4% 2rem; */  
 
+}
+
+section:not(:first-child) {
     @media(max-width: 768px) {
         padding: 7rem 6% 3rem;
     }
-    
-
 }
