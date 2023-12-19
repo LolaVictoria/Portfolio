@@ -114,3 +114,10 @@
 .educationcolumn .personal_info_column .personal_info .info_value {
     text-align: center;
 }
+
+.developer_title {
+
+    @media(max-width: 770px) {
+        font-size: 16px;
+    }
+}

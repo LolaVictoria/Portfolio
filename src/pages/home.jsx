@@ -37,7 +37,7 @@ const Home = () => {
             </div>
 
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum modi quis exercitationem a sed consectetur repudiandae, mollitia praesentium laudantium aliquam aspernatur asperiores tenetur error at molestias et, deserunt adipisci vel quia officiis blanditiis dignissimos necessitatibus. Quam numquam a dolor quaerat fugiat reprehenderit commodi ratione, qui magnam harum aperiam.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum modi quis exercitationem a sed consectetur repudiandae, mollitia praesentium laudantium aliquam aspernatur asperiores tenetur error at molestias et.
             </p>
 
             <div className={styles.btndiv}>

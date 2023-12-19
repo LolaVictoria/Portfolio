@@ -113,9 +113,9 @@ const Resume = () => {
                 <div className={styles.educationbox}>
                     <div className={styles.educationcontent}>
                         <div className={styles.content}>
-                            <div className="flex justify-between">
+                            <div className="flex flex-col lg:flex-row justify-between ">
                             <div>
-                            <h3>
+                            <h3 className={styles.developer_title}>
                                 Doyenify - Front End Developer Intern
                             </h3>
                              <p className={styles.bluetext}>                    
@@ -123,7 +123,7 @@ const Resume = () => {
                            </p>
                             </div>
                             
-                           <p className={`${styles.bluetext} mt-7`}>
+                           <p className={`${styles.bluetext} lg:mt-7`}>
                                 {/* react icon for calendar */}
                                 July 2023 - October 2023
                            </p>
@@ -131,7 +131,7 @@ const Resume = () => {
 
                            
                             {/* talk about work experience */}
-                            <ul>
+                            <ul className="mt-3">
                                 <li>Developed a  Web Application from scratch  with Typescript and React</li>
                             </ul>
 
