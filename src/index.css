@@ -50,10 +50,8 @@ section {
     min-height: 100vh;
     padding: 3rem;
 
-}
-
-section:not(:first-child) {
     @media(max-width: 770px) {
         padding: 3rem 6% 3rem;
     }
 }
+
