@@ -14,7 +14,7 @@
     border-width: 0 0 7px 0;
     border-style: double;
     background: "rgba(255, 255, 255, 0.60)";
-    backdropFilter: blur(20px);
+    backdropfilter: blur(20px);
 
     @media (max-width: 770px) {
         padding: .7rem 7%;

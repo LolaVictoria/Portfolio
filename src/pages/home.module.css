@@ -169,7 +169,7 @@
     border: .2rem solid var(--main-color);
     object-fit: cover;
     display: flex-start;
-    align-items: start;
+     
 
    
 }
@@ -181,8 +181,8 @@
 
 .socials {
     width: 190px;
-    display: flex;  
-    align-items: start;
+    display: flex-start;  
+     
     justify-content: space-between;
     margin-top: 2.3rem;
     margin-left: 2.3rem;
@@ -198,8 +198,8 @@
     
     @media(max-width: 770px) {
         width: 190px;
-        display: flex;  
-        align-items: start;
+        display: flex-start;  
+         
         justify-content: space-between;
         margin-top: 1.3rem;
         margin-left: 0rem;
