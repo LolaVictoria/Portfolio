@@ -132,7 +132,8 @@ const Resume = () => {
                            
                             {/* talk about work experience */}
                             <ul className="mt-3">
-                                <li>Developed a  Web Application from scratch  with Typescript and React</li>
+                                <li>Developed UI/UX components for customer facing web applications from scratch to enhance scalability, performance and user experience</li>
+                                <li>Performed code reviews, unit testing and continuous integration to maintain code quality standards</li>
                             </ul>
 
                         </div>
