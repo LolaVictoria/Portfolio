@@ -51,7 +51,7 @@ const Contact = () => {
                 
                     <div className={`${styles.btnbox} ${styles.btns}`}>
                         <button
-                          onClick={sendEmail} 
+                        //   onClick={sendEmail} 
                           type="submit" className={styles.btn}>Submit</button>
                     </div>
             </form>
