@@ -3,12 +3,12 @@ import styles from "./contact.module.css"
 
 const Contact = () => {
 
-    const sendEmail = () => {
-        fetch("https://api.smtpexpress.com/send")
-        .then(res => res.json)
-        .then(data)
-        console.log(data)
-    }
+    // const sendEmail = () => {
+    //     fetch("https://api.smtpexpress.com/send")
+    //     .then(res => res.json)
+    //     .then(data)
+    //     console.log(data)
+    // }
     return (
         <section className={styles.contact}>
             <h2 className="heading">
