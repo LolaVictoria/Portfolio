@@ -36,7 +36,7 @@ const Navbar = () => {
               <AiOutlineClose size={30}/> 
             </div> */}
 
-            <div
+            {/* <div
               className={styles.menu_responsive}
               onClick={
                 () => setNav(!nav)
@@ -45,7 +45,7 @@ const Navbar = () => {
               {nav ? 
               <AiOutlineClose size={30}/> 
               : <AiOutlineMenu size={30}/>}
-            </div>
+            </div> */}
               
               <ul>
 
