@@ -75,7 +75,7 @@ const Resume = () => {
                                     Framework/Libraries
                                 </div>
                                 <h3>
-                                 React
+                                 React, Next.JS
                                 </h3>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ const Resume = () => {
 
                            
                             {/* talk about work experience */}
-                            <ul className="mt-3">
+                            <ul className={styles.work_xperience_list}>
                                 <li>Developed UI/UX components for customer facing web applications from scratch to enhance scalability, performance and user experience</li>
                                 <li>Performed code reviews, unit testing and continuous integration to maintain code quality standards</li>
                             </ul>

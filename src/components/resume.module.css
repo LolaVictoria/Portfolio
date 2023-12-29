@@ -121,3 +121,11 @@
         font-size: 16px;
     }
 }
+
+.work_xperience_list {
+    margin-top: 10px;
+}
+
+.work_xperience_list li:not(:last-child) {
+    margin-bottom: 15px;
+}

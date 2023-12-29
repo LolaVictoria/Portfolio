@@ -3,12 +3,16 @@ import styles from "./contact.module.css"
 
 const Contact = () => {
 
-    // const sendEmail = () => {
-    //     fetch("https://api.smtpexpress.com/send")
-    //     .then(res => res.json)
-    //     .then(data)
-    //     console.log(data)
-    // }
+    async function sendEmail() {
+        try {
+            let res = await fetch ("https://api.smtpexpress.com/send")
+            let data = await res.json()
+            return data
+        } catch(err) {
+            console.log(err)
+        }
+    }
+
     return (
         <section className={styles.contact}>
             <h2 className="heading">
@@ -51,7 +55,7 @@ const Contact = () => {
                 
                     <div className={`${styles.btnbox} ${styles.btns}`}>
                         <button
-                        //   onClick={sendEmail} 
+                        onClick={sendEmail} 
                           type="submit" className={styles.btn}>Submit</button>
                     </div>
             </form>
