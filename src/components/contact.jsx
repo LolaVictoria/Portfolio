@@ -5,7 +5,14 @@ const Contact = () => {
 
     async function sendEmail() {
         try {
-            let res = await fetch ("https://api.smtpexpress.com/send")
+            let res = await fetch (
+                "https://api.smtpexpress.com/send",
+            {
+            headers: {
+                Authorization: `Bearer 37b40b10676cb03dcf3215a02d2e0014bb19322add8d07350`
+            },
+            }
+            )
             let data = await res.json()
             return data
         } catch(err) {

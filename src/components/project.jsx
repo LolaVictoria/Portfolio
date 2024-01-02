@@ -18,6 +18,13 @@ const  Project = () => {
                      live="https://alaba-market.vercel.app" 
                      code="https://github.com/LolaVictoria/E-Commerce-Store" />
 
+                <ProjectComponent
+                     title="News App"
+                     about="Get updated with news from different part of the world"
+                     tools="Typescript + NextJS+ React + CSS"
+                     live="https://news-update-app-umber.vercel.app/"
+                     code="https://github.com/LolaVictoria/New-App"/>
+
                <ProjectComponent
                      title="Study Card"
                      about="A reading guide that helps you to study better"
@@ -39,12 +46,7 @@ const  Project = () => {
                      live="https://lolas-portfolio.vercel.app"
                      code="https://github.com/LolaVictoria/Portfolio"/>
  
-               <ProjectComponent
-                     title="Photo Album"
-                     about="Keep memories of your loved ones"
-                     tools="Javascript + React + CSS"
-                     live="https://lolas-portfolio.vercel.app"
-                     code="https://github.com/LolaVictoria/Portfolio"/>
+               
             </div>
         </section>
     )
