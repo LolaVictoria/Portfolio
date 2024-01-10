@@ -3,7 +3,7 @@ import ProjectComponent from "./projectComponent"
 
 const  Project = () => {
     return (
-        <section>
+        <section id="project">
             <h2 className="heading">
                 Pro<span>ject</span>
             </h2>

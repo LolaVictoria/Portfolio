@@ -3,22 +3,39 @@ import styles from "./contact.module.css"
 
 const Contact = () => {
 
-    async function sendEmail() {
+   /// const smtpKey = process.env.SMTP_KEY;
+
+    async function sendEmail(e) {
+        e.preventDefault(); // Prevent the default form submission behavior
+
+        const fullName = e.target.elements.fullName.value;
+        const emailAddress = e.target.elements.emailAddress.value;
+        const mobileNumber = e.target.elements.mobileNumber.value;
+        const message = e.target.elements.message.value;
         try {
-            let res = await fetch (
+            let res = await fetch(
                 "https://api.smtpexpress.com/send",
-            {
-            headers: {
-                Authorization: `Bearer 37b40b10676cb03dcf3215a02d2e0014bb19322add8d07350`
-            },
-            }
-            )
-            let data = await res.json()
-            return data
-        } catch(err) {
-            console.log(err)
+                {
+                    method: "POST", // Use POST method for sending data
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: `Bearer d0c139c50417812da1e5c6692fb6a517a05a2dfd59244f0ac` // Use REACT_APP_ prefix for environment variables in React
+                    },
+                    body: JSON.stringify({
+                        fullName,
+                        emailAddress,
+                        mobileNumber,
+                        message
+                    })
+                }
+            );
+            let data = await res.json();
+            console.log(data); // You can handle the response data as needed
+        } catch (err) {
+            console.error(err);
         }
-    }
+    
+    } 
 
     return (
         <section className={styles.contact}>

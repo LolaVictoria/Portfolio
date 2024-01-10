@@ -50,11 +50,11 @@ const Navbar = () => {
               <ul>
 
                  <li className="active">
-                   <Link to="">Home</Link>
+                   <Link to="home">Home</Link>
                  </li>
 
                  <li>
-                   <Link to="">Project</Link>
+                   <Link to="#project">Project</Link>
                  </li>
 
 
@@ -75,11 +75,11 @@ const Navbar = () => {
               <ul>
 
                     <li className="active">
-                      <Link to="">Home</Link>
+                      <Link to="home">Home</Link>
                     </li>
 
                     <li>
-                      <Link to="">Project</Link>
+                      <Link to="#project">Project</Link>
                     </li>
 
 
