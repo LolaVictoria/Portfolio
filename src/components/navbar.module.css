@@ -69,46 +69,27 @@
 }
 
 .navlist_responsive {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    
     background-color: var(--bg-color);
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 100; */
-    background-color: var(--bg-color);
-    position: absolute;
-    top: 65px;
+    top: 59px;
     right: 20px;
-    padding: 5px 40px;
+    padding: 5px 40px 20px;
 
     @media (min-width: 770px) {
         display: none;
     }
 }
 
-/* .navlist_responsive ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-    background-color: var(--bg-color);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 100;
-} */
+.navlist_responsive ul {
+    text-align: center;
+}
+
 
 .navlist_responsive ul li {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--text-color);
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 1rem;
 
     @media (min-width: 770px) {
@@ -117,7 +98,16 @@
 
 }
 
+.navlist_responsive ul .social_box h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: .6rem;
+}
 
+.navlist_responsive ul .social_box a {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 .navlist ul li {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -132,4 +122,33 @@
 .navlist ul li:hover,
 .navlist ul li.active {
     color: var(--main-color);
+}
+
+.socials {
+    width: auto;
+    display: none;     
+    justify-content: space-between;
+    margin-top: 2.3rem;
+
+    @media(max-width: 770px) {
+       display: flex;
+    }
+
+}
+
+.socials a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 20%;
+    font-size: 20px;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
 }

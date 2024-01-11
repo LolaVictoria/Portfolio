@@ -1,4 +1,4 @@
-import Contact from "../components/contact";
+//import Contact from "../components/contact";
 import Navbar from "../components/navbar"
 import Project from "../components/project";
 import Resume from "../components/resume";
@@ -13,7 +13,7 @@ const MainPage = () => {
             <Project/>
             <Resume />
             
-            <Contact />
+            {/* <Contact /> */}
             
 
         </div>

@@ -177,7 +177,6 @@
     background: var(--bg-color);
     opacity: .8;
 } */
-
 .socials {
     width: 190px;
     display: flex;  
@@ -191,6 +190,7 @@
     }
 
 }
+
 
 .socials_responsive {
     display: none;
