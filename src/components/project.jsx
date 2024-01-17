@@ -27,7 +27,7 @@ const  Project = () => {
 
                <ProjectComponent
                      title="Study Card"
-                     about="A reading guide that helps you to study better"
+                     about="A study card platform designed to elevate your learning experience."
                      tools="Javascript + React + TailwindCSS"
                      live="https://study-card-project.vercel.app"
                      code="https://github.com/LolaVictoria/Study-Card"/>

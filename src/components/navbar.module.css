@@ -124,31 +124,5 @@
     color: var(--main-color);
 }
 
-.socials {
-    width: auto;
-    display: none;     
-    justify-content: space-between;
-    margin-top: 2.3rem;
 
-    @media(max-width: 770px) {
-       display: flex;
-    }
 
-}
-
-.socials a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    border: .2rem solid var(--main-color);
-    border-radius: 20%;
-    font-size: 20px;
-    color: var(--main-color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-}

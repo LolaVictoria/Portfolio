@@ -91,6 +91,8 @@
 
     @media(max-width: 770px) {
         height: 3.5rem;
+        width: auto;
+        justify-content: center;
     }
 }
 
@@ -120,9 +122,37 @@
     }
 }
 
-.btn:hover {
-    color: var(--bg-color);
+.btn_resume {
+    background: transparent;
+    @media(max-width: 770px) {
+        
+    }
 }
+
+.btn_contact {
+    background: var(--main-color);
+    color: var(--bg-color);
+
+    @media(max-width: 770px) {
+        margin-left: 20px;
+    }
+}
+
+.btn_resume:hover {
+    color: var(--bg-color);
+    
+}
+.btn_contact:hover {
+    color: var(--main-color);
+}
+.btn_resume::before {
+    background: var(--main-color);
+}
+
+.btn_contact::before {
+    background: var(--bg-color);
+}
+
 .btn::before {
     content: "";
     position: absolute;
@@ -130,7 +160,6 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--main-color);
     z-index: -1;
     transition: .5s;
 }

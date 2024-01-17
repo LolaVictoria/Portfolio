@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./home.module.css"
-import img from "../assets/damilola.png"
+import img from "/assets/damilola.png"
 import {FaXTwitter} from "react-icons/fa6"
 import {AiFillGithub} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
@@ -37,12 +37,21 @@ const Home = () => {
             </div>
 
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum modi quis exercitationem a sed consectetur repudiandae, mollitia praesentium laudantium aliquam aspernatur asperiores tenetur error at molestias et.
+            I&apos;m a passionate  front-end developer with hands-on experience crafting visually appealing interfaces for websites. 
+            Thriving in collaborative environments, I am open to feedback and possess a strong ability to translate 
+            design concepts into functional, responsive websites. Eager to contribute my skills to impactful projects, 
+            I am excited about creating engaging digital experiences that leave a lasting impression.
             </p>
 
             <div className={styles.btndiv}>
-                   <button className={styles.btn}>
+                   <button className={`${styles.btn} ${styles.btn_resume}`}>
                     <Link to="/">Resume</Link>
+                   </button>
+
+                   <button className={`${styles.btn} ${styles.btn_contact}`}>
+                   <a href="mailto:damilolaoniyide11@gmail.com">
+                    Contact Me
+                 </a>
                    </button>
             </div>
             </div>

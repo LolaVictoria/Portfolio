@@ -1,4 +1,4 @@
-import Demo from "../assets/demo.png"
+import Demo from "/assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
 import {IoEyeSharp} from "react-icons/io5"

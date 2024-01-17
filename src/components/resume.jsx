@@ -170,54 +170,11 @@ const Resume = () => {
                             </div>
                         </div>
 
-                        <div className={styles.educationcontent}>
-                            <div className={styles.content}>
-                                <h3>
-                                  Genius Royal Academy, Ibadan
-                                </h3>
-                                <div className={styles.bluetext}>
-                                    {/* react icon for calendar */}
-                                   July 2017
-                                </div>
-                            </div>
-                        </div>
+            
                     </div>
                 </div>
                        
               
-
-              <div className={styles.educationcolumn}>
-                    <h3 className={styles.title}>Others</h3>
-
-                    <div className={styles.educationbox}>
-
-                        <div className={styles.educationcontent}>
-                            <div className={styles.content}>
-                                <h3>
-                                 Hobbies
-                                </h3>
-                                <div className={styles.bluetext}>
-                                    {/* react icon for calendar */}
-                                    Exploring,  Reading
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={styles.educationcontent}>
-                            <div className={styles.content}>
-                                <h3>
-                                  Genius Royal Academy, Ibadan
-                                </h3>
-                                <div className={styles.bluetext}>
-                                    {/* react icon for calendar */}
-                                   July 2017
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                       
             </div>
 
         </section>
