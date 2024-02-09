@@ -23,7 +23,7 @@ const  Project = () => {
                      about="Get updated with news from different part of the world"
                      tools="Typescript + NextJS+ React + CSS"
                      live="https://news-update-app-umber.vercel.app/"
-                     code="https://github.com/LolaVictoria/New-App"/>
+                     code="https://news-app-nu-liard.vercel.app/"/>
 
                <ProjectComponent
                      title="Study Card"
@@ -32,12 +32,12 @@ const  Project = () => {
                      live="https://study-card-project.vercel.app"
                      code="https://github.com/LolaVictoria/Study-Card"/>
 
-               <ProjectComponent
+               {/* <ProjectComponent
                      title="Quiz"
                      about="A Quiz App"
                      tools="Javascript + React + CSS"
                      live="https://study-card-project.vercel.app"
-                     code="https://github.com/LolaVictoria/Study-Card"/>
+                     code="https://github.com/LolaVictoria/Study-Card"/> */}
 
                <ProjectComponent
                      title="Portfolio Website"
