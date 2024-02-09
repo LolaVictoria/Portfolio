@@ -22,8 +22,8 @@ const  Project = () => {
                      title="News App"
                      about="Get updated with news from different part of the world"
                      tools="Typescript + NextJS+ React + CSS"
-                     live="https://news-update-app-umber.vercel.app/"
-                     code="https://news-app-nu-liard.vercel.app/"/>
+                     live="https://news-app-nu-liard.vercel.app"
+                     code="https://github.com/LolaVictoria/New-App"/>
 
                <ProjectComponent
                      title="Study Card"
