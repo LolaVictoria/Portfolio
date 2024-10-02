@@ -1,6 +1,9 @@
 import styles from "./project.module.css"
 import ProjectComponent from "./projectComponent"
-
+import alabaMarket from "/alaba-market.jpeg"
+import cdss from "/cdss.jpeg"
+import studyCard from "/study-card.jpeg"
+import portfolio from "/portfolio.jpeg"
 const  Project = () => {
     return (
         <section id="project">
@@ -13,24 +16,27 @@ const  Project = () => {
                  
                  <ProjectComponent
                      title="Ecommerce Store"
-                     about="lorem35"
+                     about="Sell and Buy"
                      tools="Typescript + React + TailwindCSS"
                      live="https://alaba-market.vercel.app" 
-                     code="https://github.com/LolaVictoria/E-Commerce-Store" />
+                     code="https://github.com/LolaVictoria/E-Commerce-Store"
+                     projectImg ={alabaMarket}/>
 
                 <ProjectComponent
-                     title="News App"
-                     about="Get updated with news from different part of the world"
+                     title="CDSS"
+                     about="Clinical Decison Support System"
                      tools="Typescript + NextJS+ React + CSS"
-                     live="https://news-app-nu-liard.vercel.app"
-                     code="https://github.com/LolaVictoria/New-App"/>
+                     live="https://cdss-frontend-one.vercel.app/"
+                     code="https://github.com/oau-cdss/cdss-frontend"
+                     projectImg={cdss}/>
 
                <ProjectComponent
                      title="Study Card"
                      about="A study card platform designed to elevate your learning experience."
                      tools="Javascript + React + TailwindCSS"
                      live="https://study-card-project.vercel.app"
-                     code="https://github.com/LolaVictoria/Study-Card"/>
+                     code="https://github.com/LolaVictoria/Study-Card"
+                     projectImg={studyCard}/>
 
                {/* <ProjectComponent
                      title="Quiz"
@@ -44,7 +50,8 @@ const  Project = () => {
                      about="My Portfolio Website"
                      tools="Javascript + React + CSS"
                      live="https://lolas-portfolio.vercel.app"
-                     code="https://github.com/LolaVictoria/Portfolio"/>
+                     code="https://github.com/LolaVictoria/Portfolio"
+                     projectImg={portfolio}/>
  
                
             </div>

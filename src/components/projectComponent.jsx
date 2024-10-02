@@ -1,15 +1,14 @@
-import Demo from "/assets/demo.png"
 import styles from "./project.module.css"
 import PropTypes from "prop-types";  // Import PropTypes
 import {IoEyeSharp} from "react-icons/io5"
 import {FaCodeBranch} from "react-icons/fa"
 
-const ProjectComponent = ({about, title, tools, code, live}) => {
+const ProjectComponent = ({about, title, tools, code, live, projectImg}) => {
 
     return (
         <div className={styles.projectcolumn}>
                     <p className={styles.title}>{title}</p>
-                    <img src={Demo} alt="" className={styles.project_img} />
+                    <img src={projectImg} alt="" className={styles.project_img} />
                     <p className={styles.about}>
                         {about}
                     </p>
@@ -39,12 +38,13 @@ const ProjectComponent = ({about, title, tools, code, live}) => {
 }
 export default ProjectComponent;
 
-// Add prop type validation
+
 ProjectComponent.propTypes = {
-    title: PropTypes.string.isRequired, // Assuming title is a required string
+    title: PropTypes.string.isRequired, 
     about: PropTypes.string.isRequired,
     tools: PropTypes.string.isRequired,
     live: PropTypes.string.isRequired,
-    code: PropTypes.string.isRequired
+    code: PropTypes.string.isRequired,
+    projectImg: PropTypes.string.isRequired
   };
   
