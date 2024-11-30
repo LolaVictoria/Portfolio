@@ -17,7 +17,7 @@ const  Project = () => {
                  <ProjectComponent
                      title="Ecommerce Store"
                      about="Sell and Buy"
-                     tools="Typescript + React + TailwindCSS"
+                     tools="Typescript + React + TailwindCSS + Firebase"
                      live="https://alaba-market.vercel.app" 
                      code="https://github.com/LolaVictoria/E-Commerce-Store"
                      projectImg ={alabaMarket}/>
