@@ -1,27 +1,26 @@
+import Navbar from "./navbar";
 import styles from "./resume.module.css";
 
 const Resume = () => {
-    const personalInfo = [
-        { label: "Name", value: "Oniyide Damilola Victoria" },
-        { label: "Contact Information", value: "+2348129709027" },
-        { label: "Email Address", value: "damilolaoniyide11@gmail.com" },
-        { label: "LinkedIn", value: "Damilola Oniyide" },
-    ];
+    
 
+    // Skills
     const skills = [
         { category: "Languages", details: "Javascript, Typescript, HTML, CSS" },
         { category: "Framework/Libraries", details: "React, Next.JS" },
         { category: "Tools", details: "Git, Firebase" },
     ];
 
+    // Experiences
     const experiences = [
         {
             title: "Doyenify - Front End Developer Intern",
             location: "Remote",
             duration: "July 2023 - October 2023",
             responsibilities: [
-                "Developed UI/UX components for customer-facing web applications from scratch to enhance scalability, performance, and user experience.",
-                "Performed code reviews, unit testing, and continuous integration to maintain code quality standards.",
+                "Designed and implemented responsive UI/UX components for customer-facing web applications, enhancing usability and accessibility.",
+                "Collaborated with backend developers to integrate RESTful APIs into front-end applications, ensuring seamless data communication.",
+                "Enhanced JavaScript and React skills by working on real-world projects under the mentorship of senior developers.",
             ],
         },
         {
@@ -29,22 +28,42 @@ const Resume = () => {
             location: "Remote",
             duration: "April 2024 - Present",
             responsibilities: [
-                "Developed UI/UX components for customer-facing web applications from scratch to enhance scalability, performance, and user experience.",
-                "Performed code reviews, unit testing, and continuous integration to maintain code quality standards.",
+                "Built the DoyenKids platform from scratch, delivering a user-friendly educational application tailored for young learners and their guardians.",
+                "Designed and implemented pixel-perfect, responsive UI components that adapt seamlessly across mobile, tablet, and desktop devices.",
+                "Contributed to the development of the MVP version of the DoyenKids platform by integrating core features and functionalities required for early-stage product launch.",
+                "Collaborated closely with the backend team to integrate Firebase for real-time database interactions and ensure smooth application functionality.",
+                "Developed reusable React components to streamline development and maintain consistency across the platform's design system.",
+                "Implemented key functionalities, such as user authentication (Google OAuth), dynamic dashboard navigation, and real-time updates, to enhance platform usability.",
+                "Worked with payment integration (Stripe) to support secure transactions for course enrollments and other services.",
+                "Monitored and optimized performance, improving page load speeds and ensuring minimal downtime during development cycles.",
+                "Participated in iterative development cycles, continuously refining features based on feedback from stakeholders and early users.",
+                "Contributed to the platform's scalability by adopting modern development practices, including state management using Context API.",
+                "Ensured compliance with accessibility standards to make the platform inclusive and easy to use for a diverse audience.",
+                "Provided post-deployment support, debugging issues in production and implementing quick fixes to ensure a smooth user experience.",
+                "Collaborated in Agile sprints with cross-functional teams, including designers, project managers, and other developers, to deliver features on time.",
             ],
         },
     ];
+    
 
+    // Education
     const education = [
         {
             degree: "B.Sc Computer Science with Mathematics",
             institution: "Obafemi Awolowo University",
             year: "2025",
-            coursework: "Data Structures and Analysis of Algorithm",
+            coursework: ["Data Structures and Analysis of Algorithm",
+                         "Introduction to Information Systems",
+                         "Operating Systems Principles",
+                        "Techniques in Software Engineering",
+                          ],
         },
     ];
 
     return (
+        <>
+            <Navbar/>
+        
         <section className={styles.education}>
             <h2 className="heading">
                 Res<span>ume</span>
@@ -52,17 +71,21 @@ const Resume = () => {
 
             <div className={styles.educationrow}>
                 {/* Personal Information */}
-                <div className={styles.educationcolumn}>
-                    <h3 className={styles.title}>Personal Information</h3>
-                    <div className={styles.personal_info_column}>
-                        {personalInfo.map((info, index) => (
-                            <div className={styles.personal_info} key={index}>
-                                <div className={styles.bluetext}>{info.label}</div>
-                                <div className={styles.info_value}>{info.value}</div>
-                            </div>
-                        ))}
-                    </div>
+                {/* Personal Information */}
+{/* <div className={styles.educationcolumn}>
+    <h3 className={styles.title}>Personal Information</h3>
+    <div className={styles.educationbox}>
+        {personalInfo.map((info, index) => (
+            <div className={styles.educationcontent} key={index}>
+                <div className={styles.content}>
+                    <div className={styles.bluetext}>{info.label}</div>
+                    <p className={styles.info_value}>{info.value}</p>
                 </div>
+            </div>
+        ))}
+    </div>
+</div> */}
+
 
                 {/* Skills */}
                 <div className={styles.educationcolumn}>
@@ -115,10 +138,17 @@ const Resume = () => {
                         {education.map((edu, index) => (
                             <div className={styles.educationcontent} key={index}>
                                 <div className={styles.content}>
-                                    <h3>{edu.degree} at {edu.institution}</h3>
+                                    <h3>
+                                        {edu.degree} at {edu.institution}
+                                    </h3>
                                     <div className={styles.bluetext}>{edu.year}</div>
-                                    <h3>Relevant Coursework</h3>
-                                    <p className={styles.bluetext}>{edu.coursework}</p>
+                                    <h3 className={styles.bluetext}>Relevant Coursework</h3>
+                                    <ul className={styles.work_xperience_list}>
+                                    {edu.coursework.map((work, i) => (
+
+                                    <li key={i}>{work}</li>
+                                    ))}
+                                    </ul>
                                 </div>
                             </div>
                         ))}
@@ -126,6 +156,7 @@ const Resume = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
