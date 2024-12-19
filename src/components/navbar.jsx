@@ -48,23 +48,23 @@ const Navbar = () => {
               : <AiOutlineMenu size={30}/>}
             </div> */}
               
-              <ul>
+              <ul className={styles.responsive_list}>
 
-                 <li className="active">
-                   <Link to="home">Home</Link>
+                 <li className={styles.responsive_list_text}>
+                   <Link to="/home">Home</Link>
                  </li>
 
-                 <li>
-                   <Link to="#project">Project</Link>
+                 <li  className={styles.responsive_list_text}>
+                   <Link to="/project"  >Project</Link>
                  </li>
 
 
-                 <li>
-                   <Link to="">Resume</Link>
+                 <li  className={styles.responsive_list_text}>
+                   <Link to="/resume">Resume</Link>
                  </li>
 
-                 <li>
-                 <Link to="/contact">Contact</Link>
+                 <li  className={styles.responsive_list_text}>
+                 <Link to="/articles">Articles</Link>
                  </li>
                  
                  
