@@ -90,6 +90,10 @@ const Navbar = () => {
                       <Link to="/resume">Resume</Link>
                     </li>
 
+                    <li>
+                      <Link to="/articles">Articles</Link>
+                    </li>
+
                    
              
               </ul>

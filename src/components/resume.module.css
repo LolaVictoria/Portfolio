@@ -129,3 +129,16 @@
 .work_xperience_list li:not(:last-child) {
     margin-bottom: 15px;
 }
+
+.article {
+    padding: 2rem 5rem;
+}
+.article_list {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    /* color: var(--main-color); */
+    padding-bottom: .8rem;
+    list-style: disc;
+    text-decoration: underline;
+}

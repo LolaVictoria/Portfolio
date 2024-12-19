@@ -4,10 +4,13 @@ import img from "/assets/damilola.png"
 import {FaXTwitter} from "react-icons/fa6"
 import {AiFillGithub} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
+import Navbar from "./navbar";
 
 const Home = () => {
 
     return (
+        <>
+        <Navbar />
     <div className={styles.home} id="home">
         <div className={styles.sub_home}>
              <div
@@ -63,6 +66,7 @@ const Home = () => {
            </div>
        
         </div>
+        </>
     )
 }
 export default Home;
