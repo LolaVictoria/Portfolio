@@ -4,8 +4,12 @@ import alabaMarket from "/alaba-market.jpeg"
 import cdss from "/cdss.jpeg"
 import studyCard from "/study-card.jpeg"
 import portfolio from "/portfolio.jpeg"
+import Navbar from "./navbar"
 const  Project = () => {
     return (
+        <>
+            <Navbar/>
+       
         <section id="project">
             <h2 className="heading">
                 Pro<span>ject</span>
@@ -56,6 +60,7 @@ const  Project = () => {
                
             </div>
         </section>
+        </>
     )
 }
 export default Project
