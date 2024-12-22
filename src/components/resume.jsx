@@ -19,7 +19,7 @@ const Resume = () => {
             duration: "July 2023 - October 2023",
             responsibilities: [
                 "Designed and implemented responsive UI/UX components for customer-facing web applications, enhancing usability and accessibility.",
-                "Collaborated with backend developers to integrate RESTful APIs into front-end applications, ensuring seamless data communication.",
+                "Participated in requirement gathering and analysis to understand project objectives and user needs, ensuring alignment with business goals.",
                 "Enhanced JavaScript and React skills by working on real-world projects under the mentorship of senior developers.",
             ],
         },
@@ -33,6 +33,7 @@ const Resume = () => {
                 "Contributed to the development of the MVP version of the DoyenKids platform by integrating core features and functionalities required for early-stage product launch.",
                 "Collaborated closely with the backend team to integrate Firebase for real-time database interactions and ensure smooth application functionality.",
                 "Developed reusable React components to streamline development and maintain consistency across the platform's design system.",
+                "Integrated Firebase Firestore for efficient data storage and real-time updates, ensuring 99% uptime across platforms.",
                 "Implemented key functionalities, such as user authentication (Google OAuth), dynamic dashboard navigation, and real-time updates, to enhance platform usability.",
                 "Worked with payment integration (Stripe) to support secure transactions for course enrollments and other services.",
                 "Monitored and optimized performance, improving page load speeds and ensuring minimal downtime during development cycles.",
