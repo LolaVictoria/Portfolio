@@ -40,10 +40,10 @@ const Home = () => {
             </div>
 
             <p>
-            I&apos;m a passionate  front-end developer with hands-on experience crafting visually appealing interfaces for websites. 
-            Thriving in collaborative environments, I am open to feedback and possess a strong ability to translate 
-            design concepts into functional, responsive websites. Eager to contribute my skills to impactful projects, 
-            I am excited about creating engaging digital experiences that leave a lasting impression.
+            Damilola Oniyide is a front-end developer and a computer science student leveraging her knowledge of software development and experience to create solutions that address real-world problems. 
+            She has contributed to impactful projects, such as a clinical decision support system to enhance healthcare delivery and an e-learning platform that teaches kids how to code.  
+            Damilola is also a skilled writer with a talent for simplifying complex technical topics, making them more accessible and understandable to diverse audiences.  
+            Beyond her technical and writing expertise, Damilola is a dedicated community leader focused on promoting and fostering the growth of the tech ecosystem in her environment. She is passionate about creating opportunities for collaboration, learning, and development within the tech community.
             </p>
 
             <div className={styles.btndiv}>
