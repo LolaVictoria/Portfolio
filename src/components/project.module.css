@@ -12,7 +12,7 @@
 }
 
 .projectcolumn {
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 2.5rem .5rem;
     font-size: 1.6rem;
@@ -54,8 +54,9 @@
 }
 
 .projectcolumn .project_img {
-    object-fit: cover;
-    width: 85%;
+    object-fit: contain;
+    width: 95%;
+    height: 200px;
     margin-bottom: 20px;
 }
 

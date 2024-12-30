@@ -2,9 +2,9 @@ import styles from "./project.module.css"
 import ProjectComponent from "./projectComponent"
 import alabaMarket from "/alaba-market.jpeg"
 import cdss from "/cdss.jpeg"
-import studyCard from "/study-card.jpeg"
 import portfolio from "/portfolio.jpeg"
 import Navbar from "./navbar"
+import YungDoyen from "/yungdoyen.jpeg"
 const  Project = () => {
     return (
         <>
@@ -16,11 +16,17 @@ const  Project = () => {
             </h2>
             
             <div className={styles.project}>
-                
+            <ProjectComponent
+                     title="Yung Doyens"
+                     about="A platform for kids to enrol and develop a tech skill"
+                     tools="Typescript + React + TailwindCSS + Firebase"
+                     live="https://yung.doyenify.com/"
+                     code=""
+                     projectImg={YungDoyen}/>
                  
                  <ProjectComponent
                      title="Ecommerce Store"
-                     about="Sell and Buy"
+                     about="An online marketplace to Sell and Buy"
                      tools="Typescript + React + TailwindCSS + Firebase"
                      live="https://alaba-market.vercel.app" 
                      code="https://github.com/LolaVictoria/E-Commerce-Store"
@@ -31,23 +37,12 @@ const  Project = () => {
                      about="Clinical Decison Support System"
                      tools="Typescript + NextJS+ React + CSS"
                      live="https://cdss-frontend-one.vercel.app/"
-                     code="https://github.com/oau-cdss/cdss-frontend"
+                     code=""
                      projectImg={cdss}/>
 
-               <ProjectComponent
-                     title="Study Card"
-                     about="A study card platform designed to elevate your learning experience."
-                     tools="Javascript + React + TailwindCSS"
-                     live="https://study-card-project.vercel.app"
-                     code="https://github.com/LolaVictoria/Study-Card"
-                     projectImg={studyCard}/>
+               
 
-               {/* <ProjectComponent
-                     title="Quiz"
-                     about="A Quiz App"
-                     tools="Javascript + React + CSS"
-                     live="https://study-card-project.vercel.app"
-                     code="https://github.com/LolaVictoria/Study-Card"/> */}
+             
 
                <ProjectComponent
                      title="Portfolio Website"
