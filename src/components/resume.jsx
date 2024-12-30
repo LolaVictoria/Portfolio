@@ -20,7 +20,17 @@ const Resume = () => {
             responsibilities: [
                 "Designed and implemented responsive UI/UX components for customer-facing web applications, enhancing usability and accessibility.",
                 "Participated in requirement gathering and analysis to understand project objectives and user needs, ensuring alignment with business goals.",
-                "Enhanced JavaScript and React skills by working on real-world projects under the mentorship of senior developers.",
+                "Enhanced JavaScript and React skills by working on real-world projects under the mentorship of senior developers."
+            ],
+        },
+        {
+            title: "Software Studio, ICT Centre - Front End Developer",
+            location: "Remote",
+            duration: "Jan 2024 - April 2024",
+            responsibilities: [
+                "Designed and implemented user-friendly interfaces to present CDSS for clinical recommendations clearly and intuitively from scratch.",
+                "Leveraging Next.JS its server-side rendering and API routes for optimal performance and scalability.",
+                "Integrated backend APIs to provide seamless data retrieval and functionality for clinical workflows."
             ],
         },
         {
@@ -31,17 +41,12 @@ const Resume = () => {
                 "Built the DoyenKids platform from scratch, delivering a user-friendly educational application tailored for young learners and their guardians.",
                 "Designed and implemented pixel-perfect, responsive UI components that adapt seamlessly across mobile, tablet, and desktop devices.",
                 "Contributed to the development of the MVP version of the DoyenKids platform by integrating core features and functionalities required for early-stage product launch.",
-                "Collaborated closely with the backend team to integrate Firebase for real-time database interactions and ensure smooth application functionality.",
-                "Developed reusable React components to streamline development and maintain consistency across the platform's design system.",
-                "Integrated Firebase Firestore for efficient data storage and real-time updates, ensuring 99% uptime across platforms.",
-                "Implemented key functionalities, such as user authentication (Google OAuth), dynamic dashboard navigation, and real-time updates, to enhance platform usability.",
-                "Worked with payment integration (Stripe) to support secure transactions for course enrollments and other services.",
-                "Monitored and optimized performance, improving page load speeds and ensuring minimal downtime during development cycles.",
-                "Participated in iterative development cycles, continuously refining features based on feedback from stakeholders and early users.",
-                "Contributed to the platform's scalability by adopting modern development practices, including state management using Context API.",
-                "Ensured compliance with accessibility standards to make the platform inclusive and easy to use for a diverse audience.",
-                "Provided post-deployment support, debugging issues in production and implementing quick fixes to ensure a smooth user experience.",
-                "Collaborated in Agile sprints with cross-functional teams, including designers, project managers, and other developers, to deliver features on time.",
+                " Integrated Firebase Firestore for efficient data storage and real-time updates across platforms.",
+                "Implemented secure payment gateways using Stripe for seamless transactions.",
+                "Designed and built reusable components with React.js and TypeScript, improving development efficiency.",
+                "Collaborated with cross-functional teams to deliver key features, including user dashboards, profile management, and course discovery.",
+                "Ensured optimal user experience by leveraging modern web technologies and implementing best practices.",
+                "Collaborated in Agile Methodology with cross-functional teams, including designers, project managers, and other developers, to deliver features on time.",
             ],
         },
     ];
