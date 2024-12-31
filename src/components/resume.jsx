@@ -43,11 +43,7 @@ const Resume = () => {
             degree: "B.Sc Computer Science with Mathematics",
             institution: "Obafemi Awolowo University",
             year: "2025",
-            coursework: ["Data Structures and Analysis of Algorithm",
-                         "Introduction to Information Systems",
-                         "Operating Systems Principles",
-                        "Techniques in Software Engineering",
-                          ],
+            
         },
     ];
 
