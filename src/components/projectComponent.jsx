@@ -1,5 +1,5 @@
 import styles from "./project.module.css"
-import PropTypes from "prop-types";  // Import PropTypes
+import PropTypes from "prop-types";  
 import {IoEyeSharp} from "react-icons/io5"
 import {FaCodeBranch} from "react-icons/fa"
 
@@ -10,7 +10,7 @@ const ProjectComponent = ({about, title, tools, code, live, projectImg}) => {
         
         <div className={styles.projectcolumn}>
                     <p className={styles.title}>{title}</p>
-                    <img src={projectImg} alt="" className={styles.project_img} />
+                    <img src={projectImg} alt="" className={styles.project_img} loading="lazy"/>
                     <p className={styles.about}>
                         {about}
                     </p>

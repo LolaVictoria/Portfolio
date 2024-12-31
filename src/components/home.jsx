@@ -19,7 +19,9 @@ const Home = () => {
                  <img 
                  src={img} 
                  className={styles.img}
-                 alt="Damilola Oniyide" /> 
+                 alt="Damilola Oniyide" 
+                 loading="lazy"
+                 /> 
 
         <div className={styles.socials}>
             <a href="https://github.com/LolaVictoria" rel="noopener"><AiFillGithub /></a>
@@ -40,15 +42,14 @@ const Home = () => {
             </div>
 
             <p>
-            Damilola Oniyide is a front-end developer and a computer science student leveraging her knowledge of software development and experience to create solutions that address real-world problems. 
-            She has contributed to impactful projects, such as a clinical decision support system to enhance healthcare delivery and an e-learning platform that teaches kids how to code.  
-            Damilola is also a skilled writer with a talent for simplifying complex technical topics, making them more accessible and understandable to diverse audiences.  
-            Beyond her technical and writing expertise, Damilola is a dedicated community leader focused on promoting and fostering the growth of the tech ecosystem in her environment. She is passionate about creating opportunities for collaboration, learning, and development within the tech community.
+            I am a front-end developer and a computer science student leveraging her knowledge of software development and experience to create solutions that address real-world problems. 
+            I have contributed to impactful projects, such as a clinical decision support system to enhance healthcare delivery and an e-learning platform that teaches kids how to code.  
+            
             </p>
 
             <div className={styles.btndiv}>
                    <button className={`${styles.btn} ${styles.btn_resume}`}>
-                    <Link to="/">Resume</Link>
+                    <Link to="/resume">Resume</Link>
                    </button>
 
                    <button className={`${styles.btn} ${styles.btn_contact}`}>

@@ -14,41 +14,26 @@ const Resume = () => {
     // Experiences
     const experiences = [
         {
-            title: "Doyenify - Front End Developer Intern",
+            title: "Doyenify - Front End Developer",
             location: "Remote",
-            duration: "July 2023 - October 2023",
+            duration: "April 2024 - Dec 2024",
             responsibilities: [
-                "Designed and implemented responsive UI/UX components for customer-facing web applications, enhancing usability and accessibility.",
-                "Participated in requirement gathering and analysis to understand project objectives and user needs, ensuring alignment with business goals.",
-                "Enhanced JavaScript and React skills by working on real-world projects under the mentorship of senior developers."
+                "Developed the DoyenKids platform from scratch, delivering a user-friendly educational application designed for young learners and their guardians. Achieved a 40% increase in user engagement within the first 3 months by implementing an intuitive interface and interactive learning features.",
+                 "Contributed to the development of the MVP version of YungDoyen, integrating core features and functionalities essential for an early-stage product launch. Delivered the MVP on schedule, resulting in a 20% increase in early-stage sign-ups and meeting 100% of the project’s critical feature requirements"
             ],
         },
+       
         {
             title: "Software Studio, ICT Centre - Front End Developer",
             location: "Remote",
             duration: "Jan 2024 - April 2024",
             responsibilities: [
-                "Designed and implemented user-friendly interfaces to present CDSS for clinical recommendations clearly and intuitively from scratch.",
-                "Leveraging Next.JS its server-side rendering and API routes for optimal performance and scalability.",
-                "Integrated backend APIs to provide seamless data retrieval and functionality for clinical workflows."
+                "Designed and implemented user-friendly interfaces to present Clinical Decision Support Systems (CDSS) for clinical recommendations, using Next.JS. Achieved a 25% reduction in user error rates through simplified UI/UX design.",
+                "Integrated backend APIs to provide seamless data retrieval and functionality for clinical workflows, ensuring 99.9% uptime and enabling real-time updates for healthcare professionals."
+
             ],
         },
-        {
-            title: "Doyenify - Front End Developer",
-            location: "Remote",
-            duration: "April 2024 - Present",
-            responsibilities: [
-                "Built the DoyenKids platform from scratch, delivering a user-friendly educational application tailored for young learners and their guardians.",
-                "Designed and implemented pixel-perfect, responsive UI components that adapt seamlessly across mobile, tablet, and desktop devices.",
-                "Contributed to the development of the MVP version of the DoyenKids platform by integrating core features and functionalities required for early-stage product launch.",
-                " Integrated Firebase Firestore for efficient data storage and real-time updates across platforms.",
-                "Implemented secure payment gateways using Stripe for seamless transactions.",
-                "Designed and built reusable components with React.js and TypeScript, improving development efficiency.",
-                "Collaborated with cross-functional teams to deliver key features, including user dashboards, profile management, and course discovery.",
-                "Ensured optimal user experience by leveraging modern web technologies and implementing best practices.",
-                "Collaborated in Agile Methodology with cross-functional teams, including designers, project managers, and other developers, to deliver features on time.",
-            ],
-        },
+        
     ];
     
 
