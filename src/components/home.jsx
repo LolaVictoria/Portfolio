@@ -9,7 +9,7 @@ import Navbar from "./navbar";
 const Home = () => {
 
     return (
-        <div className="lg:overflow-y-hidden">
+        <div className="lg:overflow-hidden">
         <Navbar />
     <div className={styles.home} id="home">
         <div className={styles.sub_home}>
