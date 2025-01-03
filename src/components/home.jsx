@@ -9,7 +9,7 @@ import Navbar from "./navbar";
 const Home = () => {
 
     return (
-        <>
+        <div className="lg:overflow-y-hidden">
         <Navbar />
     <div className={styles.home} id="home">
         <div className={styles.sub_home}>
@@ -67,7 +67,7 @@ const Home = () => {
            </div>
        
         </div>
-        </>
+        </div>
     )
 }
 export default Home;
