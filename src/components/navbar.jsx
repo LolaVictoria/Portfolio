@@ -11,35 +11,29 @@ const Navbar = () => {
 
     return (
         <div className={styles.navbar}>
+          <div className={styles.logo_container}>
             <p className={styles.logo}>Lola Victoria</p>
+            <div className={styles.menu} onClick={() => setNav(!nav)} aria-expanded={nav ? "true" : "false"}>
+              {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+            </div>
+          </div>
 
-           
-          
-
-            <div
-    className={styles.menu}
-    onClick={() => setNav(!nav)}
-    aria-expanded={nav ? "true" : "false"}
->
-    {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
-</div>
-
-{nav && (
-    <ul className={styles.responsive_list}>
-        <li className={styles.responsive_list_text}>
-            <Link to="/home">Home</Link>
-        </li>
-        <li className={styles.responsive_list_text}>
-            <Link to="/project">Project</Link>
-        </li>
-        <li className={styles.responsive_list_text}>
-            <Link to="/resume">Resume</Link>
-        </li>
-        <li className={styles.responsive_list_text}>
-            <Link to="/articles">Articles</Link>
-        </li>
-    </ul>
-)}
+            {nav && (
+                <ul className={styles.responsive_list}>
+                    <li className={styles.responsive_list_text}>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className={styles.responsive_list_text}>
+                        <Link to="/project">Project</Link>
+                    </li>
+                    <li className={styles.responsive_list_text}>
+                        <Link to="/resume">Resume</Link>
+                    </li>
+                    <li className={styles.responsive_list_text}>
+                        <Link to="/articles">Articles</Link>
+                    </li>
+                </ul>
+            )}
 
            
 
