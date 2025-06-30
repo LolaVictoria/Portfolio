@@ -3,6 +3,10 @@ import styles from "./resume.module.css";
 
 const articlesData = [
     {
+        "title": "Implement a Service Worker with Workbox in a PWA",
+        "link": "https://www.freecodecamp.org/news/implement-a-service-worker-with-workbox-in-a-pwa/"
+    },
+    {
         "title": "Performance Optimization Techniques for Front-End Developers",
         "link": "https://medium.com/@damilolaoniyide11/performance-optimization-techniques-for-front-end-developers-ca965cff0543"
     },
@@ -26,7 +30,7 @@ const articlesData = [
         "title": "Important Meta Tags For Search Engine Optimization",
         "link": "https://medium.com/@damilolaoniyide11/important-meta-tags-for-search-engine-optimization-6699888da9d7"
     },
-
+    
 ]
 
 const Articles = ( ) => {
