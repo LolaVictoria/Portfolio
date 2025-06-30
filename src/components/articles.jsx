@@ -3,7 +3,7 @@ import styles from "./resume.module.css";
 
 const articlesData = [
     {
-        "title": "Implement a Service Worker with Workbox in a PWA",
+        "title": "Implement a Service Worker with Workbox in a PWA - FreeCodeCamp",
         "link": "https://www.freecodecamp.org/news/implement-a-service-worker-with-workbox-in-a-pwa/"
     },
     {
