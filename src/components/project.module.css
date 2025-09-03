@@ -14,7 +14,7 @@
 .projectcolumn {
     width: 100%;
     height: auto;
-    padding: 2.5rem 0rem;
+    padding: 2.5rem 1rem;
     font-size: 1.6rem;
     color: var(--text-color);
     background-color: transparent;
@@ -24,10 +24,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
     @media(max-width: 770px) {
-        padding: 2.5rem 0;
+        padding: 2.5rem 1rem;
     }
 }
 
