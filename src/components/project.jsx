@@ -11,7 +11,7 @@ const projects = [
   {
     title: "BlockVerify",
     about: "Blockchain-based product authentication system",
-    tools: "TypeScript + Python + React + TailwindCSS + Flask + MongoDB + Solidity",
+    tools: "TypeScript + React + TailwindCSS + Flask + Solidity + MongoDB",
     live: "https://blockchain-verification-esup.vercel.app/",
     code: "",
     projectImg: BlockVerify,
