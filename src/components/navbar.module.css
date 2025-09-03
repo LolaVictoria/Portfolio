@@ -28,6 +28,14 @@
     
 }
 
+.activeLink {
+  background-color: var(--main-color);
+  color: white !important;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
 .responsive_list {
     background-color: var(--bg-color);
     width: 100vw;

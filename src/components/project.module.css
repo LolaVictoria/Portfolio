@@ -14,7 +14,7 @@
 .projectcolumn {
     width: 100%;
     height: auto;
-    padding: 2.5rem .5rem;
+    padding: 2.5rem 0rem;
     font-size: 1.6rem;
     color: var(--text-color);
     background-color: transparent;
@@ -41,16 +41,19 @@
     font-weight: 900;
     font-size: 25px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .projectcolumn .about {
-    font-size: 16px;
-    max-width: 250px;
+   font-weight: 600;
+    text-align: center;
 }
 
 .projectcolumn .tools {
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 14px;
   margin: .6rem 0;
+  text-align: center;
 }
 
 .projectcolumn .project_img {

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import styles from "./navbar.module.css"
 import { useState } from "react"
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -39,29 +40,49 @@ const Navbar = () => {
 
             <nav className={styles.navlist}>
               <ul>
-
-                    <li className="active">
-                      <Link to="/">Home</Link>
-                    </li>
-
-                    <li>
-                      <Link to="/project">Project</Link>
-                    </li>
-
-
-                    <li>
-                      <Link to="/resume">Resume</Link>
-                    </li>
-
-                    <li>
-                      <Link to="/articles">Articles</Link>
-                    </li>
-
-                   
-             
+                <li>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? styles.activeLink : undefined
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/project"
+                    className={({ isActive }) =>
+                      isActive ? styles.activeLink : undefined
+                    }
+                  >
+                    Project
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/resume"
+                    className={({ isActive }) =>
+                      isActive ? styles.activeLink : undefined
+                    }
+                  >
+                    Resume
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/articles"
+                    className={({ isActive }) =>
+                      isActive ? styles.activeLink : undefined
+                    }
+                  >
+                    Articles
+                  </NavLink>
+                </li>
               </ul>
-                
             </nav>
+
         </div>
     )
 }
